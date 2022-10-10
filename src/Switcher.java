@@ -2,32 +2,27 @@ public class Switcher {
 
     public static void main(String[] args) {
 
-        int age = 1;
+        String name = ("Enter a command line");
 
 
-        switch(age){
-            case 1:
-                System.out.print("You are a toddler.");
+        switch("stop"){
+            case "start":
+                System.out.print("You are on track!");
                 break;
 
 
-            case 2:
-                System.out.println("You are an infant");
+            case "stop" :
+                System.out.println("You are on track");
                 break;
 
 
-            case 3:
-                System.out.println("You are a child.");
-                break;
-
-
-            case 4:
-                System.out.println("You are strong enough.");
+            case "change position" :
+                System.out.println("You are on track.");
                 break;
 
 
             default:
-                System.out.println("You are an adult");
+                System.out.println("Not on track, start all over!");
                 break;
         }
         }
