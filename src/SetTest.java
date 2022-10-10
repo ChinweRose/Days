@@ -12,6 +12,14 @@ public class SetTest {
         mySet.setName(myName);
 
         System.out.println("Your name is: "+ mySet.getName());
+        System.out.println();
+
+        System.out.println("How old are you? ");
+        int myAge = input.nextInt();
+        mySet.setAge(myAge);
+
+        System.out.println("You are age: " + mySet.getAge());
+        System.out.println();
 
     }
 }
