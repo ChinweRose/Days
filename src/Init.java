@@ -5,7 +5,7 @@ public class Init {
 
         System.out.printf("%5s%8s%n", "index" , "Value");
 
-        for(int counter = 0 ; counter < array.length ; counter++)
+        for(int counter = 1 ; counter < array.length ; counter ++)
             System.out.printf("%5d%8d%n", counter , array[counter] );
     }
 }
