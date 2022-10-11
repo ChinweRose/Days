@@ -7,7 +7,8 @@ public class Numbers {
         System.out.printf("%4s%8s%n", "Index" , "Values");
 
 
-        for (int counter = 1; counter < array.length; counter++)
+        for (int counter = 0; counter < array.length; counter++)
+
             System.out.printf("%3d%8d%n" , counter , array[counter] );
     }
 }
